@@ -24,4 +24,6 @@ void renderScene(void);
 void pressKey(int, int, int);
 void releaseKey(int, int, int);
 float randColour(void);
-
+void mouse(int, int, int, int);
+void blackGround();
+void init(void);

@@ -1,13 +1,8 @@
-﻿  main.cpp
-c:\users\macab\onedrive\documents\github\openglcw\openglstuff\main.cpp(232): error C2065: 'BVposition': undeclared identifier
-c:\users\macab\onedrive\documents\github\openglcw\openglstuff\main.cpp(232): error C2228: left of '.x' must have class/struct/union
-  c:\users\macab\onedrive\documents\github\openglcw\openglstuff\main.cpp(232): note: type is 'unknown-type'
-c:\users\macab\onedrive\documents\github\openglcw\openglstuff\main.cpp(232): error C2228: left of '.y' must have class/struct/union
-  c:\users\macab\onedrive\documents\github\openglcw\openglstuff\main.cpp(232): note: type is 'unknown-type'
-c:\users\macab\onedrive\documents\github\openglcw\openglstuff\main.cpp(232): error C2228: left of '.z' must have class/struct/union
-  c:\users\macab\onedrive\documents\github\openglcw\openglstuff\main.cpp(232): note: type is 'unknown-type'
-c:\users\macab\onedrive\documents\github\openglcw\openglstuff\main.cpp(232): error C2660: 'glTranslatef': function does not take 1 arguments
+﻿  Vector.cpp
   PairsGame.cpp
   Mouse.cpp
+  main.cpp
+  Box.cpp
   Generating Code...
-c:\users\macab\onedrive\documents\github\openglcw\openglstuff\mouse.cpp(60): warning C4715: 'Mouse::isBoundSphereIntersect': not all control paths return a value
+c:\users\macab\onedrive\documents\github\openglcw\openglstuff\mouse.cpp(25): warning C4715: 'Mouse::isBoundSphereIntersect': not all control paths return a value
+  openglstuff.vcxproj -> C:\Users\macab\OneDrive\Documents\GitHub\OpenGLCW\Debug\openglstuff.exe

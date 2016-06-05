@@ -3,20 +3,26 @@
 class Mouse
 {
 public:
-	double WorldT[16];
-	double objectNear[4];
-	double objectFar[4];
+	
 
 	Mouse();
+
+	void sceneBound();
 	
 	bool isBoundSphereIntersect(Ray v);
+	//void drawBox(float w, float h, float l);
 	void draw();
-	void mouse(int button, int state, int x, int y);
-
+	//void mouse(int button, int state, int x, int y);
+//private:
 	bool intersect;
 	float BoundSphereRadius;
-	Vector position; //point
+	//float sceneBoundSphereRadius;
+	
 	Vector BVposition;//point
-	~Mouse();
+	
+	Vector position; //point
+	//Vector BVposition;//point
+
+	//~Mouse();
 };
 
