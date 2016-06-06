@@ -4,5 +4,26 @@
   main.cpp
   Box.cpp
   Generating Code...
-c:\users\macab\onedrive\documents\github\openglcw\openglstuff\mouse.cpp(25): warning C4715: 'Mouse::isBoundSphereIntersect': not all control paths return a value
-  openglstuff.vcxproj -> C:\Users\macab\OneDrive\Documents\GitHub\OpenGLCW\Debug\openglstuff.exe
+main.obj : error LNK2019: unresolved external symbol __imp__glBegin@4 referenced in function "void __cdecl drawRay(void)" (?drawRay@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function "void __cdecl renderBegin(void)" (?renderBegin@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function "void __cdecl blackGround(void)" (?blackGround@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glColor3f@12 referenced in function "void __cdecl drawBoxes(void)" (?drawBoxes@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glEnable@4 referenced in function "void __cdecl initGL(void)" (?initGL@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glEnd@0 referenced in function "void __cdecl drawRay(void)" (?drawRay@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glFrustum@48 referenced in function "void __cdecl changeSize(int,int)" (?changeSize@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__glGetDoublev@8 referenced in function "void __cdecl calculateRay(int,int)" (?calculateRay@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__glGetIntegerv@8 referenced in function "void __cdecl calculateRay(int,int)" (?calculateRay@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__glLoadIdentity@0 referenced in function "void __cdecl changeSize(int,int)" (?changeSize@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__glMatrixMode@4 referenced in function "void __cdecl changeSize(int,int)" (?changeSize@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__glNormal3f@12 referenced in function "void __cdecl drawRay(void)" (?drawRay@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glPopMatrix@0 referenced in function "void __cdecl drawBoxes(void)" (?drawBoxes@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glPushMatrix@0 referenced in function "void __cdecl drawBoxes(void)" (?drawBoxes@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glRotatef@16 referenced in function "void __cdecl rotateTiles(void)" (?rotateTiles@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glShadeModel@4 referenced in function "void __cdecl initGL(void)" (?initGL@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glTranslatef@12 referenced in function "void __cdecl bounce(void)" (?bounce@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glVertex3d@24 referenced in function "void __cdecl drawRay(void)" (?drawRay@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp__glViewport@16 referenced in function "void __cdecl changeSize(int,int)" (?changeSize@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol _gluPerspective@32 referenced in function "void __cdecl changeSize(int,int)" (?changeSize@@YAXHH@Z)
+main.obj : error LNK2019: unresolved external symbol _gluLookAt@72 referenced in function "void __cdecl renderBegin(void)" (?renderBegin@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol _gluUnProject@48 referenced in function "void __cdecl calculateRay(int,int)" (?calculateRay@@YAXHH@Z)
+C:\Users\macab\OneDrive\Documents\GitHub\OpenGLCW - Copy\Debug\openglstuff.exe : fatal error LNK1120: 22 unresolved externals

@@ -20,7 +20,7 @@ bool Mouse::isBoundSphereIntersect(Ray v) {
 
 	if (v.LinePointDistanceSqd(BVposition) > (BoundSphereRadius*BoundSphereRadius))
 		return false; //no intersection detected
-	else true;//intersection detected
+	else return true;//intersection detected
 	
 }
 
