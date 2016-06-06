@@ -219,7 +219,8 @@ void renderScene(void) {
 	//gluLookAt(8.0*sin(float(theta)*0.0175), 11.0, 11.0*cos(floattheta)*0.0175), 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 	//5.0*sin(float(theta)*0.0175)
 	//5.0, 5.0*cos(float(theta)*0.0175)
-	gluLookAt(5.0*sin(float(theta)*0.0175), 10.0, 5.0*cos(float(theta)*0.0175), 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+	//gluLookAt(5.0*sin(float(theta)*0.0175), 10.0, 5.0*cos(float(theta)*0.0175), 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+	gluLookAt(objectNear[0], objectNear[1], objectNear[2], 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 	glGetDoublev(GL_MODELVIEW_MATRIX, WorldT);//get for use with gluUnproject	
 	glBegin(GL_TRIANGLES);  //fire ray
 	glNormal3f(0.0, -1.0, 0.0);
